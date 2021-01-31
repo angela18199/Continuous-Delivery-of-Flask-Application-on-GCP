@@ -11,5 +11,4 @@ lint:
 test:
 	#python -m pytest -vv --cov==main main_test.py
 
-all:
-	install lint test
+all: install lint test
